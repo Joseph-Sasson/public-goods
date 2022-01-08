@@ -9,6 +9,14 @@ body{
   height: 750px;
 }
 
+.top-div ul{
+  list-style: none;
+}
+
+.top-div li::before{
+  content: "• ";
+}
+
 button{
   border: none;
   font-weight: bold;
@@ -33,5 +41,5 @@ button:hover{
 }
 
 .bottom-li::before{
-  content: '✓ ';
+  content: "✓ ";
 }
