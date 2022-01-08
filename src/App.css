@@ -1,0 +1,37 @@
+body{
+  text-align: center;
+  width: 75%;
+}
+
+.top-div img{
+  justify-content: right;
+  width: 750px;
+  height: 750px;
+}
+
+button{
+  border: none;
+  font-weight: bold;
+  background-color: rgba(150, 88, 27, 0.822);
+  color: white;
+  width: 17%;
+  height: 50px;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+.middle-div{
+  display: flex;
+  background-color: lightgrey;
+  justify-content: center;
+}
+
+.bottom-ui{
+  list-style: none;
+}
+
+.bottom-li::before{
+  content: '✓ ';
+}
